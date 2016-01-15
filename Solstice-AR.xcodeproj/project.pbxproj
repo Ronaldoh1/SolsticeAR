@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB7F42D71C4951DC00DE1E89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42D61C4951DC00DE1E89 /* main.m */; };
+		FB7F42DA1C4951DC00DE1E89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42D91C4951DC00DE1E89 /* AppDelegate.m */; };
+		FB7F42DD1C4951DC00DE1E89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42DC1C4951DC00DE1E89 /* ViewController.m */; };
+		FB7F42E01C4951DC00DE1E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7F42DE1C4951DC00DE1E89 /* Main.storyboard */; };
+		FB7F42E21C4951DC00DE1E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7F42E11C4951DC00DE1E89 /* Assets.xcassets */; };
+		FB7F42E51C4951DC00DE1E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7F42E31C4951DC00DE1E89 /* LaunchScreen.storyboard */; };
+		FB7F42F01C4951DC00DE1E89 /* Solstice_ARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42EF1C4951DC00DE1E89 /* Solstice_ARTests.m */; };
+		FB7F42FB1C4951DC00DE1E89 /* Solstice_ARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42FA1C4951DC00DE1E89 /* Solstice_ARUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB7F42EC1C4951DC00DE1E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7F42CA1C4951DC00DE1E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7F42D11C4951DC00DE1E89;
+			remoteInfo = "Solstice-AR";
+		};
+		FB7F42F71C4951DC00DE1E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB7F42CA1C4951DC00DE1E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB7F42D11C4951DC00DE1E89;
+			remoteInfo = "Solstice-AR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB7F42D21C4951DC00DE1E89 /* Solstice-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solstice-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7F42D61C4951DC00DE1E89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB7F42D81C4951DC00DE1E89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB7F42D91C4951DC00DE1E89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB7F42DB1C4951DC00DE1E89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB7F42DC1C4951DC00DE1E89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB7F42DF1C4951DC00DE1E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB7F42E11C4951DC00DE1E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB7F42E41C4951DC00DE1E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB7F42E61C4951DC00DE1E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7F42EB1C4951DC00DE1E89 /* Solstice-ARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solstice-ARTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7F42EF1C4951DC00DE1E89 /* Solstice_ARTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solstice_ARTests.m; sourceTree = "<group>"; };
+		FB7F42F11C4951DC00DE1E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7F42F61C4951DC00DE1E89 /* Solstice-ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solstice-ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB7F42FA1C4951DC00DE1E89 /* Solstice_ARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solstice_ARUITests.m; sourceTree = "<group>"; };
+		FB7F42FC1C4951DC00DE1E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB7F42CF1C4951DC00DE1E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7F42E81C4951DC00DE1E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7F42F31C4951DC00DE1E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB7F42C91C4951DC00DE1E89 = {
+			isa = PBXGroup;
+			children = (
+				FB7F42D41C4951DC00DE1E89 /* Solstice-AR */,
+				FB7F42EE1C4951DC00DE1E89 /* Solstice-ARTests */,
+				FB7F42F91C4951DC00DE1E89 /* Solstice-ARUITests */,
+				FB7F42D31C4951DC00DE1E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB7F42D31C4951DC00DE1E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F42D21C4951DC00DE1E89 /* Solstice-AR.app */,
+				FB7F42EB1C4951DC00DE1E89 /* Solstice-ARTests.xctest */,
+				FB7F42F61C4951DC00DE1E89 /* Solstice-ARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB7F42D41C4951DC00DE1E89 /* Solstice-AR */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F42D81C4951DC00DE1E89 /* AppDelegate.h */,
+				FB7F42D91C4951DC00DE1E89 /* AppDelegate.m */,
+				FB7F42DB1C4951DC00DE1E89 /* ViewController.h */,
+				FB7F42DC1C4951DC00DE1E89 /* ViewController.m */,
+				FB7F42DE1C4951DC00DE1E89 /* Main.storyboard */,
+				FB7F42E11C4951DC00DE1E89 /* Assets.xcassets */,
+				FB7F42E31C4951DC00DE1E89 /* LaunchScreen.storyboard */,
+				FB7F42E61C4951DC00DE1E89 /* Info.plist */,
+				FB7F42D51C4951DC00DE1E89 /* Supporting Files */,
+			);
+			path = "Solstice-AR";
+			sourceTree = "<group>";
+		};
+		FB7F42D51C4951DC00DE1E89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F42D61C4951DC00DE1E89 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB7F42EE1C4951DC00DE1E89 /* Solstice-ARTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F42EF1C4951DC00DE1E89 /* Solstice_ARTests.m */,
+				FB7F42F11C4951DC00DE1E89 /* Info.plist */,
+			);
+			path = "Solstice-ARTests";
+			sourceTree = "<group>";
+		};
+		FB7F42F91C4951DC00DE1E89 /* Solstice-ARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F42FA1C4951DC00DE1E89 /* Solstice_ARUITests.m */,
+				FB7F42FC1C4951DC00DE1E89 /* Info.plist */,
+			);
+			path = "Solstice-ARUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB7F42D11C4951DC00DE1E89 /* Solstice-AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7F42FF1C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-AR" */;
+			buildPhases = (
+				FB7F42CE1C4951DC00DE1E89 /* Sources */,
+				FB7F42CF1C4951DC00DE1E89 /* Frameworks */,
+				FB7F42D01C4951DC00DE1E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Solstice-AR";
+			productName = "Solstice-AR";
+			productReference = FB7F42D21C4951DC00DE1E89 /* Solstice-AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB7F42EA1C4951DC00DE1E89 /* Solstice-ARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7F43021C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARTests" */;
+			buildPhases = (
+				FB7F42E71C4951DC00DE1E89 /* Sources */,
+				FB7F42E81C4951DC00DE1E89 /* Frameworks */,
+				FB7F42E91C4951DC00DE1E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7F42ED1C4951DC00DE1E89 /* PBXTargetDependency */,
+			);
+			name = "Solstice-ARTests";
+			productName = "Solstice-ARTests";
+			productReference = FB7F42EB1C4951DC00DE1E89 /* Solstice-ARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB7F42F51C4951DC00DE1E89 /* Solstice-ARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB7F43051C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARUITests" */;
+			buildPhases = (
+				FB7F42F21C4951DC00DE1E89 /* Sources */,
+				FB7F42F31C4951DC00DE1E89 /* Frameworks */,
+				FB7F42F41C4951DC00DE1E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7F42F81C4951DC00DE1E89 /* PBXTargetDependency */,
+			);
+			name = "Solstice-ARUITests";
+			productName = "Solstice-ARUITests";
+			productReference = FB7F42F61C4951DC00DE1E89 /* Solstice-ARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB7F42CA1C4951DC00DE1E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Solstice;
+				TargetAttributes = {
+					FB7F42D11C4951DC00DE1E89 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FB7F42EA1C4951DC00DE1E89 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FB7F42D11C4951DC00DE1E89;
+					};
+					FB7F42F51C4951DC00DE1E89 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FB7F42D11C4951DC00DE1E89;
+					};
+				};
+			};
+			buildConfigurationList = FB7F42CD1C4951DC00DE1E89 /* Build configuration list for PBXProject "Solstice-AR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB7F42C91C4951DC00DE1E89;
+			productRefGroup = FB7F42D31C4951DC00DE1E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB7F42D11C4951DC00DE1E89 /* Solstice-AR */,
+				FB7F42EA1C4951DC00DE1E89 /* Solstice-ARTests */,
+				FB7F42F51C4951DC00DE1E89 /* Solstice-ARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB7F42D01C4951DC00DE1E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7F42E51C4951DC00DE1E89 /* LaunchScreen.storyboard in Resources */,
+				FB7F42E21C4951DC00DE1E89 /* Assets.xcassets in Resources */,
+				FB7F42E01C4951DC00DE1E89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7F42E91C4951DC00DE1E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7F42F41C4951DC00DE1E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB7F42CE1C4951DC00DE1E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7F42DD1C4951DC00DE1E89 /* ViewController.m in Sources */,
+				FB7F42DA1C4951DC00DE1E89 /* AppDelegate.m in Sources */,
+				FB7F42D71C4951DC00DE1E89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7F42E71C4951DC00DE1E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7F42F01C4951DC00DE1E89 /* Solstice_ARTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7F42F21C4951DC00DE1E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7F42FB1C4951DC00DE1E89 /* Solstice_ARUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB7F42ED1C4951DC00DE1E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7F42D11C4951DC00DE1E89 /* Solstice-AR */;
+			targetProxy = FB7F42EC1C4951DC00DE1E89 /* PBXContainerItemProxy */;
+		};
+		FB7F42F81C4951DC00DE1E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB7F42D11C4951DC00DE1E89 /* Solstice-AR */;
+			targetProxy = FB7F42F71C4951DC00DE1E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB7F42DE1C4951DC00DE1E89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7F42DF1C4951DC00DE1E89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7F42E31C4951DC00DE1E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7F42E41C4951DC00DE1E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB7F42FD1C4951DC00DE1E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB7F42FE1C4951DC00DE1E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB7F43001C4951DC00DE1E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solstice-AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB7F43011C4951DC00DE1E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Solstice-AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-AR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB7F43031C4951DC00DE1E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Solstice-ARTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solstice-AR.app/Solstice-AR";
+			};
+			name = Debug;
+		};
+		FB7F43041C4951DC00DE1E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Solstice-ARTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-ARTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solstice-AR.app/Solstice-AR";
+			};
+			name = Release;
+		};
+		FB7F43061C4951DC00DE1E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Solstice-ARUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solstice-AR";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB7F43071C4951DC00DE1E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Solstice-ARUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-ARUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Solstice-AR";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB7F42CD1C4951DC00DE1E89 /* Build configuration list for PBXProject "Solstice-AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7F42FD1C4951DC00DE1E89 /* Debug */,
+				FB7F42FE1C4951DC00DE1E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB7F42FF1C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7F43001C4951DC00DE1E89 /* Debug */,
+				FB7F43011C4951DC00DE1E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB7F43021C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7F43031C4951DC00DE1E89 /* Debug */,
+				FB7F43041C4951DC00DE1E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB7F43051C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB7F43061C4951DC00DE1E89 /* Debug */,
+				FB7F43071C4951DC00DE1E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB7F42CA1C4951DC00DE1E89 /* Project object */;
+}
