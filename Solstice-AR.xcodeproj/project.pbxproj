@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D61392CDB6121CBFC2EB318 /* libPods-Solstice-ARUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE018A67B25731746B98804 /* libPods-Solstice-ARUITests.a */; };
+		270F9C6500E51F943C6A45D0 /* libPods-Solstice-ARTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 138B248D9E4DD41A9CEAE24E /* libPods-Solstice-ARTests.a */; };
+		5A10FF5DD777A3E3B2DA097E /* libPods-Solstice-AR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74536D0310921496DE23B2F8 /* libPods-Solstice-AR.a */; };
 		FB7F42D71C4951DC00DE1E89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42D61C4951DC00DE1E89 /* main.m */; };
 		FB7F42DA1C4951DC00DE1E89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42D91C4951DC00DE1E89 /* AppDelegate.m */; };
 		FB7F42DD1C4951DC00DE1E89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42DC1C4951DC00DE1E89 /* ViewController.m */; };
@@ -15,6 +18,37 @@
 		FB7F42E51C4951DC00DE1E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7F42E31C4951DC00DE1E89 /* LaunchScreen.storyboard */; };
 		FB7F42F01C4951DC00DE1E89 /* Solstice_ARTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42EF1C4951DC00DE1E89 /* Solstice_ARTests.m */; };
 		FB7F42FB1C4951DC00DE1E89 /* Solstice_ARUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7F42FA1C4951DC00DE1E89 /* Solstice_ARUITests.m */; };
+		FB7F430A1C495B3D00DE1E89 /* LayarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43091C495B3D00DE1E89 /* LayarSDK.framework */; };
+		FB7F430C1C495BDC00DE1E89 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F430B1C495BDC00DE1E89 /* libc++.tbd */; };
+		FB7F430E1C495BEE00DE1E89 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F430D1C495BEE00DE1E89 /* libiconv.tbd */; };
+		FB7F43101C495C0400DE1E89 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F430F1C495C0400DE1E89 /* libxml2.tbd */; };
+		FB7F43121C495C1000DE1E89 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43111C495C1000DE1E89 /* libz.tbd */; };
+		FB7F43141C495C1D00DE1E89 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43131C495C1D00DE1E89 /* AddressBook.framework */; };
+		FB7F43161C495C2300DE1E89 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43151C495C2300DE1E89 /* AddressBookUI.framework */; };
+		FB7F43181C495C3000DE1E89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43171C495C3000DE1E89 /* AudioToolbox.framework */; };
+		FB7F431A1C495CB700DE1E89 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43191C495CB700DE1E89 /* AVFoundation.framework */; };
+		FB7F431C1C495CBF00DE1E89 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F431B1C495CBF00DE1E89 /* CFNetwork.framework */; };
+		FB7F431E1C495CC700DE1E89 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F431D1C495CC700DE1E89 /* CoreAudio.framework */; };
+		FB7F43201C495CCF00DE1E89 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F431F1C495CCF00DE1E89 /* CoreData.framework */; };
+		FB7F43221C495CD700DE1E89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43211C495CD700DE1E89 /* CoreGraphics.framework */; };
+		FB7F43241C495CDF00DE1E89 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43231C495CDF00DE1E89 /* CoreLocation.framework */; };
+		FB7F43261C495CE900DE1E89 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43251C495CE900DE1E89 /* CoreMedia.framework */; };
+		FB7F43281C495CF300DE1E89 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43271C495CF300DE1E89 /* CoreMotion.framework */; };
+		FB7F432A1C495CFB00DE1E89 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43291C495CFB00DE1E89 /* CoreTelephony.framework */; };
+		FB7F432C1C495D0500DE1E89 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F432B1C495D0500DE1E89 /* CoreVideo.framework */; };
+		FB7F432E1C495D1100DE1E89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F432D1C495D1100DE1E89 /* Foundation.framework */; };
+		FB7F43301C495D1A00DE1E89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F432F1C495D1A00DE1E89 /* MapKit.framework */; };
+		FB7F43321C495D2200DE1E89 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43311C495D2200DE1E89 /* MessageUI.framework */; };
+		FB7F43341C495D2B00DE1E89 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43331C495D2B00DE1E89 /* OpenAL.framework */; };
+		FB7F43361C495D3300DE1E89 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43351C495D3300DE1E89 /* OpenGLES.framework */; };
+		FB7F43381C495D3D00DE1E89 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43371C495D3D00DE1E89 /* QuartzCore.framework */; };
+		FB7F433A1C495D4400DE1E89 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43391C495D4400DE1E89 /* Security.framework */; };
+		FB7F433C1C495D4D00DE1E89 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F433B1C495D4D00DE1E89 /* Social.framework */; };
+		FB7F433E1C495D5500DE1E89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F433D1C495D5500DE1E89 /* SystemConfiguration.framework */; };
+		FB7F43401C495D5D00DE1E89 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F433F1C495D5D00DE1E89 /* Twitter.framework */; };
+		FB7F43421C495D6500DE1E89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43411C495D6500DE1E89 /* UIKit.framework */; };
+		FB7F43441C49838000DE1E89 /* libMPOAuthMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7F43431C49838000DE1E89 /* libMPOAuthMobile.a */; };
+		FB7F43461C4983E300DE1E89 /* LayarSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FB7F43451C4983E300DE1E89 /* LayarSDKResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +69,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		138B248D9E4DD41A9CEAE24E /* libPods-Solstice-ARTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Solstice-ARTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EBD4191160681A7203A0605 /* Pods-Solstice-ARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solstice-ARUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solstice-ARUITests/Pods-Solstice-ARUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9529AAC081DA55660B7C2F /* Pods-Solstice-AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solstice-AR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solstice-AR/Pods-Solstice-AR.release.xcconfig"; sourceTree = "<group>"; };
+		74536D0310921496DE23B2F8 /* libPods-Solstice-AR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Solstice-AR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C1FC051572BE9441DF3A30 /* Pods-Solstice-AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solstice-AR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solstice-AR/Pods-Solstice-AR.debug.xcconfig"; sourceTree = "<group>"; };
+		AAE018A67B25731746B98804 /* libPods-Solstice-ARUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Solstice-ARUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22C5F7C2BE14E1B6839D204 /* Pods-Solstice-ARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solstice-ARTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Solstice-ARTests/Pods-Solstice-ARTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF365B0B664F0F53823D2753 /* Pods-Solstice-ARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solstice-ARTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solstice-ARTests/Pods-Solstice-ARTests.release.xcconfig"; sourceTree = "<group>"; };
+		DDD4210C15FE78EA1CD897CD /* Pods-Solstice-ARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solstice-ARUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Solstice-ARUITests/Pods-Solstice-ARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FB7F42D21C4951DC00DE1E89 /* Solstice-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Solstice-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F42D61C4951DC00DE1E89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB7F42D81C4951DC00DE1E89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +94,37 @@
 		FB7F42F61C4951DC00DE1E89 /* Solstice-ARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Solstice-ARUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F42FA1C4951DC00DE1E89 /* Solstice_ARUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Solstice_ARUITests.m; sourceTree = "<group>"; };
 		FB7F42FC1C4951DC00DE1E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7F43091C495B3D00DE1E89 /* LayarSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayarSDK.framework; path = "Solstice-AR/LayarSDK.framework"; sourceTree = "<group>"; };
+		FB7F430B1C495BDC00DE1E89 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FB7F430D1C495BEE00DE1E89 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		FB7F430F1C495C0400DE1E89 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		FB7F43111C495C1000DE1E89 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FB7F43131C495C1D00DE1E89 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FB7F43151C495C2300DE1E89 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		FB7F43171C495C3000DE1E89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FB7F43191C495CB700DE1E89 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FB7F431B1C495CBF00DE1E89 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FB7F431D1C495CC700DE1E89 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FB7F431F1C495CCF00DE1E89 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FB7F43211C495CD700DE1E89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB7F43231C495CDF00DE1E89 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FB7F43251C495CE900DE1E89 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FB7F43271C495CF300DE1E89 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FB7F43291C495CFB00DE1E89 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FB7F432B1C495D0500DE1E89 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FB7F432D1C495D1100DE1E89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB7F432F1C495D1A00DE1E89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FB7F43311C495D2200DE1E89 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FB7F43331C495D2B00DE1E89 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		FB7F43351C495D3300DE1E89 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FB7F43371C495D3D00DE1E89 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB7F43391C495D4400DE1E89 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FB7F433B1C495D4D00DE1E89 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FB7F433D1C495D5500DE1E89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB7F433F1C495D5D00DE1E89 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FB7F43411C495D6500DE1E89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB7F43431C49838000DE1E89 /* libMPOAuthMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMPOAuthMobile.a; sourceTree = "<group>"; };
+		FB7F43451C4983E300DE1E89 /* LayarSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LayarSDKResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +132,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7F43421C495D6500DE1E89 /* UIKit.framework in Frameworks */,
+				FB7F43401C495D5D00DE1E89 /* Twitter.framework in Frameworks */,
+				FB7F433E1C495D5500DE1E89 /* SystemConfiguration.framework in Frameworks */,
+				FB7F433C1C495D4D00DE1E89 /* Social.framework in Frameworks */,
+				FB7F433A1C495D4400DE1E89 /* Security.framework in Frameworks */,
+				FB7F43381C495D3D00DE1E89 /* QuartzCore.framework in Frameworks */,
+				FB7F43361C495D3300DE1E89 /* OpenGLES.framework in Frameworks */,
+				FB7F43341C495D2B00DE1E89 /* OpenAL.framework in Frameworks */,
+				FB7F43321C495D2200DE1E89 /* MessageUI.framework in Frameworks */,
+				FB7F43301C495D1A00DE1E89 /* MapKit.framework in Frameworks */,
+				FB7F432E1C495D1100DE1E89 /* Foundation.framework in Frameworks */,
+				FB7F432C1C495D0500DE1E89 /* CoreVideo.framework in Frameworks */,
+				FB7F432A1C495CFB00DE1E89 /* CoreTelephony.framework in Frameworks */,
+				FB7F43281C495CF300DE1E89 /* CoreMotion.framework in Frameworks */,
+				FB7F43261C495CE900DE1E89 /* CoreMedia.framework in Frameworks */,
+				FB7F43241C495CDF00DE1E89 /* CoreLocation.framework in Frameworks */,
+				FB7F43221C495CD700DE1E89 /* CoreGraphics.framework in Frameworks */,
+				FB7F43201C495CCF00DE1E89 /* CoreData.framework in Frameworks */,
+				FB7F431E1C495CC700DE1E89 /* CoreAudio.framework in Frameworks */,
+				FB7F431C1C495CBF00DE1E89 /* CFNetwork.framework in Frameworks */,
+				FB7F431A1C495CB700DE1E89 /* AVFoundation.framework in Frameworks */,
+				FB7F43181C495C3000DE1E89 /* AudioToolbox.framework in Frameworks */,
+				FB7F43161C495C2300DE1E89 /* AddressBookUI.framework in Frameworks */,
+				FB7F43141C495C1D00DE1E89 /* AddressBook.framework in Frameworks */,
+				FB7F43121C495C1000DE1E89 /* libz.tbd in Frameworks */,
+				FB7F43101C495C0400DE1E89 /* libxml2.tbd in Frameworks */,
+				FB7F43441C49838000DE1E89 /* libMPOAuthMobile.a in Frameworks */,
+				FB7F430E1C495BEE00DE1E89 /* libiconv.tbd in Frameworks */,
+				FB7F430C1C495BDC00DE1E89 /* libc++.tbd in Frameworks */,
+				FB7F430A1C495B3D00DE1E89 /* LayarSDK.framework in Frameworks */,
+				5A10FF5DD777A3E3B2DA097E /* libPods-Solstice-AR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270F9C6500E51F943C6A45D0 /* libPods-Solstice-ARTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +178,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D61392CDB6121CBFC2EB318 /* libPods-Solstice-ARUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06236E8E60C58B4E8881CDAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F43431C49838000DE1E89 /* libMPOAuthMobile.a */,
+				FB7F430B1C495BDC00DE1E89 /* libc++.tbd */,
+				FB7F430F1C495C0400DE1E89 /* libxml2.tbd */,
+				FB7F43111C495C1000DE1E89 /* libz.tbd */,
+				FB7F430D1C495BEE00DE1E89 /* libiconv.tbd */,
+				FB7F43091C495B3D00DE1E89 /* LayarSDK.framework */,
+				FB7F43411C495D6500DE1E89 /* UIKit.framework */,
+				FB7F433F1C495D5D00DE1E89 /* Twitter.framework */,
+				FB7F433D1C495D5500DE1E89 /* SystemConfiguration.framework */,
+				FB7F433B1C495D4D00DE1E89 /* Social.framework */,
+				FB7F43391C495D4400DE1E89 /* Security.framework */,
+				FB7F43371C495D3D00DE1E89 /* QuartzCore.framework */,
+				FB7F43351C495D3300DE1E89 /* OpenGLES.framework */,
+				FB7F43331C495D2B00DE1E89 /* OpenAL.framework */,
+				FB7F43311C495D2200DE1E89 /* MessageUI.framework */,
+				FB7F432F1C495D1A00DE1E89 /* MapKit.framework */,
+				FB7F432D1C495D1100DE1E89 /* Foundation.framework */,
+				FB7F432B1C495D0500DE1E89 /* CoreVideo.framework */,
+				FB7F43291C495CFB00DE1E89 /* CoreTelephony.framework */,
+				FB7F43271C495CF300DE1E89 /* CoreMotion.framework */,
+				FB7F43251C495CE900DE1E89 /* CoreMedia.framework */,
+				FB7F43231C495CDF00DE1E89 /* CoreLocation.framework */,
+				FB7F43211C495CD700DE1E89 /* CoreGraphics.framework */,
+				FB7F431F1C495CCF00DE1E89 /* CoreData.framework */,
+				FB7F431D1C495CC700DE1E89 /* CoreAudio.framework */,
+				FB7F431B1C495CBF00DE1E89 /* CFNetwork.framework */,
+				FB7F43191C495CB700DE1E89 /* AVFoundation.framework */,
+				FB7F43171C495C3000DE1E89 /* AudioToolbox.framework */,
+				FB7F43151C495C2300DE1E89 /* AddressBookUI.framework */,
+				FB7F43131C495C1D00DE1E89 /* AddressBook.framework */,
+				74536D0310921496DE23B2F8 /* libPods-Solstice-AR.a */,
+				138B248D9E4DD41A9CEAE24E /* libPods-Solstice-ARTests.a */,
+				AAE018A67B25731746B98804 /* libPods-Solstice-ARUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		444116A09EC0BC6600CE9A35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4C1FC051572BE9441DF3A30 /* Pods-Solstice-AR.debug.xcconfig */,
+				2E9529AAC081DA55660B7C2F /* Pods-Solstice-AR.release.xcconfig */,
+				C22C5F7C2BE14E1B6839D204 /* Pods-Solstice-ARTests.debug.xcconfig */,
+				CF365B0B664F0F53823D2753 /* Pods-Solstice-ARTests.release.xcconfig */,
+				1EBD4191160681A7203A0605 /* Pods-Solstice-ARUITests.debug.xcconfig */,
+				DDD4210C15FE78EA1CD897CD /* Pods-Solstice-ARUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FB7F42C91C4951DC00DE1E89 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +245,8 @@
 				FB7F42EE1C4951DC00DE1E89 /* Solstice-ARTests */,
 				FB7F42F91C4951DC00DE1E89 /* Solstice-ARUITests */,
 				FB7F42D31C4951DC00DE1E89 /* Products */,
+				444116A09EC0BC6600CE9A35 /* Pods */,
+				06236E8E60C58B4E8881CDAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				FB7F42D61C4951DC00DE1E89 /* main.m */,
+				FB7F43451C4983E300DE1E89 /* LayarSDKResources.bundle */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,9 +310,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB7F42FF1C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-AR" */;
 			buildPhases = (
+				CCA602CA7AF9BB3B850DE7FC /* Check Pods Manifest.lock */,
 				FB7F42CE1C4951DC00DE1E89 /* Sources */,
 				FB7F42CF1C4951DC00DE1E89 /* Frameworks */,
 				FB7F42D01C4951DC00DE1E89 /* Resources */,
+				2E9C9FE87B6482690D81AD0B /* Embed Pods Frameworks */,
+				B8134C9BB65CCAC0D31DB444 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +330,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB7F43021C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARTests" */;
 			buildPhases = (
+				BDD6F37357086A07317E38E7 /* Check Pods Manifest.lock */,
 				FB7F42E71C4951DC00DE1E89 /* Sources */,
 				FB7F42E81C4951DC00DE1E89 /* Frameworks */,
 				FB7F42E91C4951DC00DE1E89 /* Resources */,
+				2A571DDFEBA7BF81AA0EAC26 /* Embed Pods Frameworks */,
+				16E272AA1CF9D6C4CE04CC2B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB7F43051C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARUITests" */;
 			buildPhases = (
+				1EFE13167E7DEBDF5D53EF8B /* Check Pods Manifest.lock */,
 				FB7F42F21C4951DC00DE1E89 /* Sources */,
 				FB7F42F31C4951DC00DE1E89 /* Frameworks */,
 				FB7F42F41C4951DC00DE1E89 /* Resources */,
+				2DB4D5C97AA9FBB3D9076525 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +378,7 @@
 				TargetAttributes = {
 					FB7F42D11C4951DC00DE1E89 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MB7UFE25RT;
 					};
 					FB7F42EA1C4951DC00DE1E89 = {
 						CreatedOnToolsVersion = 7.2;
@@ -245,6 +417,7 @@
 			files = (
 				FB7F42E51C4951DC00DE1E89 /* LaunchScreen.storyboard in Resources */,
 				FB7F42E21C4951DC00DE1E89 /* Assets.xcassets in Resources */,
+				FB7F43461C4983E300DE1E89 /* LayarSDKResources.bundle in Resources */,
 				FB7F42E01C4951DC00DE1E89 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +437,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E272AA1CF9D6C4CE04CC2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solstice-ARTests/Pods-Solstice-ARTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EFE13167E7DEBDF5D53EF8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A571DDFEBA7BF81AA0EAC26 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solstice-ARTests/Pods-Solstice-ARTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB4D5C97AA9FBB3D9076525 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solstice-ARUITests/Pods-Solstice-ARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E9C9FE87B6482690D81AD0B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solstice-AR/Pods-Solstice-AR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8134C9BB65CCAC0D31DB444 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Solstice-AR/Pods-Solstice-AR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD6F37357086A07317E38E7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA602CA7AF9BB3B850DE7FC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB7F42CE1C4951DC00DE1E89 /* Sources */ = {
@@ -409,28 +705,59 @@
 		};
 		FB7F43001C4951DC00DE1E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C1FC051572BE9441DF3A30 /* Pods-Solstice-AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Solstice-AR",
+				);
 				INFOPLIST_FILE = "Solstice-AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_CODE_SIGN_FLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		FB7F43011C4951DC00DE1E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9529AAC081DA55660B7C2F /* Pods-Solstice-AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Solstice-AR",
+				);
 				INFOPLIST_FILE = "Solstice-AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_CODE_SIGN_FLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Solstice.Solstice-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		FB7F43031C4951DC00DE1E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22C5F7C2BE14E1B6839D204 /* Pods-Solstice-ARTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Solstice-ARTests/Info.plist";
@@ -443,6 +770,7 @@
 		};
 		FB7F43041C4951DC00DE1E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF365B0B664F0F53823D2753 /* Pods-Solstice-ARTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Solstice-ARTests/Info.plist";
@@ -455,6 +783,7 @@
 		};
 		FB7F43061C4951DC00DE1E89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBD4191160681A7203A0605 /* Pods-Solstice-ARUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Solstice-ARUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +796,7 @@
 		};
 		FB7F43071C4951DC00DE1E89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD4210C15FE78EA1CD897CD /* Pods-Solstice-ARUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Solstice-ARUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +826,7 @@
 				FB7F43011C4951DC00DE1E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB7F43021C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +835,7 @@
 				FB7F43041C4951DC00DE1E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB7F43051C4951DC00DE1E89 /* Build configuration list for PBXNativeTarget "Solstice-ARUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +844,7 @@
 				FB7F43071C4951DC00DE1E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

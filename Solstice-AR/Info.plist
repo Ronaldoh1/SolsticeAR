@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Required device Capabilities</key>
+	<array>
+		<string>opengles-2</string>
+		<string>video-camera</string>
+		<string>accelerometer</string>
+		<string>magnetometer</string>
+		<string>location-services</string>
+		<string>armv7</string>
+	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to show interesting spots around you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The Application needs your current location when in use.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
